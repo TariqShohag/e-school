@@ -1,0 +1,278 @@
+body{
+    font-family: 'poppins', sans-serif;
+}
+h1{
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 1.45;
+}
+
+.btn-primary{
+	font-size: 15px;
+	background-color: #21B573;
+	padding: 8px 30px;
+	border: none;
+	border-radius: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: black;
+}
+
+.navbar-nav .nav-link.btn-primary {
+	padding: 9px 28px;
+	color: white;
+}
+
+
+.btn-primary:hover{
+	font-size: 15px;
+	background-color: #fff;
+	padding: 8px 30px;
+	color: #21B573;
+	box-shadow: 0 0 0 0.2rem rgba(33, 181, 114, 0.5);
+	transition: 0.3s;
+}
+
+.navbar-nav .nav-link.btn-primary:hover{
+	font-size: 15px;
+	background-color: #fff;
+	padding: 8px 30px;
+	color: #21B573;
+	box-shadow: 0 0 0 0.2rem rgba(33, 181, 114, 0.5);
+	transition: 0.3s;
+}
+span{
+	color: #21B573;
+}
+
+.learn{
+	color: #fd511a;
+}
+
+.leading{
+	color: #585859;
+}
+
+.header{
+	background-color: #f0fff0;
+}
+
+.hero-section{
+	padding-bottom: 5rem;
+	background-color: #f0fff0;
+}
+
+.card:hover{
+	background-color: white;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	transition: ease-in;
+	transform: translateY(-3px);
+}
+
+.features-item {
+	background: #dbfdea52;
+	border-radius: 10px;
+	max-width: 270px;
+	min-height: 270px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	transition: 0.3s linear;
+}
+
+.features-item h4 {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #413960;
+	margin-bottom: 2px;
+}
+
+.features-item span {
+	font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+}
+
+.features-item:hover {
+	background-color: white;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	transform: translateY(-3px);
+}
+.features-item img {
+	margin-bottom: 30px;
+}
+
+.course-item {
+	background: #ffffff;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+	border: none;
+	padding: 24px 20px;
+	transition: 0.3s linear;
+}
+
+.course-item:hover {
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	transform: translateY(-5px);
+	transition: 0.3s linear;
+}
+
+.card-body{
+	padding: 0;
+	margin-top: 20px;
+}
+
+.card-text{
+	color: #585858;
+}
+
+.card-footer {
+	background: transparent;
+	border: none;
+	margin-top: 5px;
+	padding: 0;
+}
+.card-footer span{
+	display: inline-block;
+	font-size: 15px;
+	color: #585858;
+}
+
+.card-title{
+	font-size: 24px;
+	font-weight: 500;
+    color: #413960;
+}
+
+.section-heading h2{
+	color: #413960;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.testi-style{
+	border-radius: 50px;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.034);
+}
+
+.testimonial-content .text {
+	margin-left: 50px;
+	color: #000;
+}
+
+.testimonial-content .text p {
+	margin: 0;
+}
+
+.Subscription{
+	height: 300px;
+	background-color: #f0fff0;
+	border-radius: 30px;
+}
+.Subscription h2{
+	color: #413960;
+	font-size: 36px;
+	font-weight: 700
+}
+
+.form-control{
+	border: 2px solid #21b572;
+	border-radius: 20px;
+	height: 2.5em;
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+footer{
+	background: #211d2bf8;
+	color: white;
+}
+
+.footer-content h4{
+	color: #21b572;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.footer-content a{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.8em;
+}
+
+.footer-content ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.list li{
+	list-style: none;
+}
+
+footer a{
+	color: white;
+}
+
+footer a:hover{
+	color: #21b572;
+}
+
+.copyright{
+	color: #21b572;
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+	.learn2{
+		font-size: 30px;
+	}
+	.leading{
+		font-size: 15px;
+	}
+	.card-title{
+		font-size: 17px;
+		font-weight: 600;
+		padding: 0;
+		margin: 0;
+	}
+
+	.card-footer .span-text {
+		font-size: 12px;
+	}
+
+	
+	.courses{
+	padding: 0px;
+	margin: 0px;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	.card-title{
+		font-size: 30px;
+	}
+	.card-footer .span-text {
+		font-size: 15px;
+	}
+}
+
+@media screen and (min-width: 991px) {
+	.testimonial-content {
+		padding: 0 16% 4% 16%;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.testimonial-content .text {
+		margin-left: 20px;
+	}
+}
